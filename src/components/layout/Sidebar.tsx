@@ -1,6 +1,6 @@
-import { ArrowRight, BookOpen, FileText, Library, Tag, Users, X } from 'lucide-react'
-import { Link, NavLink } from 'react-router-dom'
-import { IconButton } from '../ui/IconButton'
+import { ArrowRight, BookOpen, FileText, Library, Tag, Users, X } from 'lucide-react';
+import { Link, NavLink } from 'react-router-dom';
+import { IconButton } from '../ui/IconButton';
 
 export function Sidebar({ open, close }: { open: boolean; close: () => void }) {
   const item = (to: string, label: string, icon: React.ReactNode) => <NavLink to={to} end={to === '/'} className={({ isActive }) => isActive ? 'nav-item active' : 'nav-item'}>{icon}<span>{label}</span></NavLink>
