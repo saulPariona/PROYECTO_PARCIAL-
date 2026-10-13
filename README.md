@@ -62,12 +62,6 @@ Este comando crea una carpeta llamada `PROYECTO_PARCIAL-` y descarga el contenid
 cd PROYECTO_PARCIAL-
 ```
 
-Puedes confirmar que estás en el repositorio correcto con:
-
-```powershell
-git remote -v
-git branch --show-current
-```
 
 La rama actual debe ser:
 
