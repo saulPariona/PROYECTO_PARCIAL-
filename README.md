@@ -346,6 +346,35 @@ Puedes comprobar el último commit con:
 git log -1 --oneline
 ```
 
+## Backlog y distribución de responsabilidades
+
+La siguiente distribución registra el trabajo asignado a cada integrante del equipo y sirve como referencia del backlog del proyecto:
+
+| N.° | Integrante | Archivos o módulo asignado |
+|---:|---|---|
+| 1 | Janampa-Jaime | `src/pages/LibraryPages.tsx` |
+| 2 | Lizana-Rios | `src/pages/CategoriesPage.tsx` y `src/components/ui/` |
+| 3 | Vivanco-Solano | `src/components/layout/` |
+| 4 | Pariona-Ramos | `src/App.tsx`, `src/lib/storage.ts` y `src/types/library.ts` |
+
+### Detalle del backlog
+
+- **Janampa-Jaime**
+  - Desarrollo y mantenimiento de las páginas principales de la biblioteca.
+  - Archivo: `src/pages/LibraryPages.tsx`.
+- **Lizana-Rios**
+  - Desarrollo de la gestión de categorías.
+  - Desarrollo y mantenimiento de componentes reutilizables de interfaz.
+  - Archivos y carpeta: `src/pages/CategoriesPage.tsx`, `src/components/ui/`.
+- **Vivanco-Solano**
+  - Desarrollo de la estructura visual y navegación general.
+  - Carpeta: `src/components/layout/`.
+- **Pariona-Ramos**
+  - Integración principal de la aplicación y sus rutas.
+  - Persistencia de datos en el almacenamiento local.
+  - Definición de tipos de libros, usuarios y préstamos.
+  - Archivos: `src/App.tsx`, `src/lib/storage.ts`, `src/types/library.ts`.
+
 ## Tecnologías
 
 - React 19
