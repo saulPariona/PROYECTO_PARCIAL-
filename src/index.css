@@ -1,5 +1,11 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :root {
-  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'Inter', system-ui, 'Segoe UI', Roboto, sans-serif;
   color: #18151f;
   background: #faf9fc;
   font-synthesis: none;
@@ -11,7 +17,6 @@
 #root {
   width: 100%;
   min-height: 100vh;
-  box-sizing: border-box;
 }
 
 body {
@@ -22,4 +27,15 @@ body {
 
 p {
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button,
+input,
+select {
+  font-family: inherit;
 }

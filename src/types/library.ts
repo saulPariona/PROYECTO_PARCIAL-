@@ -28,3 +28,19 @@ export type Loan = {
   returnedAt?: string
   status: LoanStatus
 }
+
+/** Comprobante digital guardado en Local Storage al registrar un préstamo. */
+export type Receipt = {
+  code: string
+  userId: string
+  userName: string
+  userCode: string
+  bookTitle: string
+  bookAuthor: string
+  borrowedAt: string
+  dueAt: string
+}
+
+export type Session = { role: 'admin' } | { role: 'user'; userId: string }
+
+export type BorrowResult = { id?: string; error?: string }
